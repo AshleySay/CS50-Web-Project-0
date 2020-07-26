@@ -1,2 +1,2 @@
-# CS50-Web-Project-0
+search
 This is the "search" project
