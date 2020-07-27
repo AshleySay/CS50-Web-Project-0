@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="collapse navbar-collapse">
+              <div class="navbar-nav ml-auto" id="mynav">
+                <a class="nav-item nav-link text-dark" href="images.html">Images<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-dark" href="index.html">Home</a>
+              </div>
+            </div>
+        </nav>
+        <form action="https://www.google.com/search" method="GET">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p class="text-danger advanced-text">Advanced Search</p>
+                </div>
+            </div>
+            <div class="row a-cells">
+                <div class="col">Find pages with...</div>
+                <div class="col text-center" style="padding-right: 150px">To do this in the search box</div>
+            </div>  
+            <div class="row a-cells">
+                <div class="col-2 a">All these words:</div>
+                <div class="col">
+                    <input type="text" name="as_q" class="form-control">
+                </div>
+                <div class="col a">Type the important words:  tricolor rat terrier</div>
+            </div>
+            <div class="row a-cells">
+                <div class="col-2 a">This exact word or phrase:</div>
+                <div class="col">
+                    <input type="text" name="as_epq" class="form-control">
+                </div>
+                <div class="col a">Put exact words in quotes:  "rat terrier"</div>
+            </div>
+            <div class="row a-cells">
+                <div class="col-2 a">Any of these words:</div>
+                <div class="col">
+                    <input type="text" name="as_oq" class="form-control">
+                </div>
+                <div class="col a">Type OR between all the words you want:  miniature OR standard</div>
+            </div>
+            <div class="row a-cells">
+                <div class="col-2 a">None of these words:</div>
+                <div class="col">
+                    <input type="text" name="as_eq" class="form-control">
+                </div>
+                <div class="col a">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</div>
+            </div>
+            <div class="row" style="padding-left: 800px">
+                    <button  class="btn btn-primary" type="submit">Advanced Search</button>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>

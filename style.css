@@ -1,0 +1,88 @@
+#mynav {
+    font-family:arial, sans-serif; 
+    font-size:15px;
+    margin-top:10px;
+}
+
+.section {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    margin-right: -75%;
+    transform: translate(-50%, -50%);
+}
+  
+
+  .mybutton{
+      margin: 20px;
+}
+
+  image {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: -100px;  
+}
+
+.search button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: white;
+    color: grey;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 0px 25px 25px 0px;
+    cursor: pointer;
+  }
+
+.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-right: 0px solid grey;
+    float: left;
+    border-radius: 25px 0px 0px 25px;
+    width: 50%;
+    margin-left: -20px
+}
+
+.searchbuttons {
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    bottom: -50%;
+    right: -50%;
+}
+
+.advanced-text{
+    font-family: Arial, Sans-Serif;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.inlineleft{
+
+    float: left;
+}
+
+.inlineright{
+
+    float: right;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.multiform{
+    padding: 20px;
+}
+
+.a-cells{
+    padding-bottom: 20px;
+}
+
+.a{
+    font-size: small;
+}
